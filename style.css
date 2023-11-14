@@ -4,3 +4,15 @@
   box-sizing: 0;
 }
  
+/*definindo as fontes*/
+body, input, select, textarea {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+/*definindo as fontes*/
+.fieldset-wrapper legend, button, h1 {
+  font-family: 'Staatliches', sans-serif;
+  font-weight: 400;
+}
+
