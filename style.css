@@ -11,7 +11,7 @@ body, input, select, textarea {
 }
 
 /*definindo as fontes*/
-.fieldset-wrapper legend, button, h1 {
+.fieldset-wrapper legend, .fieldset-wrapper-title, button, h1 {
   font-family: 'Staatliches', sans-serif;
   font-weight: 400;
 }
@@ -21,6 +21,7 @@ body {
   width: 100%;
   height: 1930px;
   background: #BFD7E4;
+  
 }
 
 /*Definindo cor do header sobreposto ao body*/
@@ -37,15 +38,19 @@ body::before {
   z-index: -1;
 
   background: #293241;
+  
 }
 
 .page {
   width: 750px;
   margin: auto;
+  
 }
 
+/*Configurando o header*/
 header {
   text-align: center;
+  
 }
 
 header h1 {
@@ -64,4 +69,16 @@ header h1 , p {
   color: #FFF;
 }
 
+.fieldset-wrapper-title {
+  color: #FFF;
+  font-size: 24px;
+  line-height: 34px; 
+  margin-top: 50px;
+  border-radius: 0px 0px 20px 20px;
+  background: #F67669;
+  
+}
 
+.fieldset-wrapper {
+  
+}
