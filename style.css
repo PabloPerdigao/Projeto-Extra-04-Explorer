@@ -45,5 +45,23 @@ body::before {
 }
 
 header {
-  
+  text-align: center;
 }
+
+header h1 {
+  font-size: 36px;
+  line-height: normal;
+  margin-top: 107px;
+}
+
+p {
+  font-size: 16px;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+header h1 , p {
+  color: #FFF;
+}
+
+
