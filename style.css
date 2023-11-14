@@ -62,7 +62,7 @@ header h1 {
 p {
   font-size: 16px;
   line-height: normal;
-  margin-bottom: 24px;
+  margin-bottom: 17px;
 }
 
 header h1 , p {
@@ -90,4 +90,18 @@ border: none;
   line-height: 34px; 
   margin-top: 50px;
     
+}
+
+
+form {
+  
+  height: 1075px;
+  
+  border-radius: 0px 0px 20px 20px;
+  background: #FFF;
+
+  padding: 64px;
+
+  display: flex;
+  flex-direction: column;
 }
