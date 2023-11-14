@@ -62,7 +62,7 @@ header h1 {
 p {
   font-size: 16px;
   line-height: normal;
-  margin-bottom: 17px;
+  margin-bottom: 16px;
 }
 
 header h1 , p {
@@ -92,7 +92,7 @@ border: none;
     
 }
 
-
+/*Configurando o Form*/
 form {
   
   height: 1075px;
@@ -101,7 +101,27 @@ form {
   background: #FFF;
 
   padding: 64px;
-
+  
   display: flex;
   flex-direction: column;
 }
+
+/*Conteúdo do fieldset*/
+.input-wrapper, 
+.checkbox-wrapper,
+.col-2, select {
+  color: #4E4958;
+  font-size: 14px;
+
+}
+
+.col-2 {
+ display: flex;
+ gap: 22px;
+}
+
+.col-3 > div:nth-child(1) {
+  width: 50%;
+}
+
+ 
