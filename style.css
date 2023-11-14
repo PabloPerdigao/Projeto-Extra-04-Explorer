@@ -5,7 +5,7 @@
 }
  
 /*definindo as fontes*/
-body, input, select, textarea {
+body, input, select, textarea, span {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
@@ -107,7 +107,7 @@ form {
 }
 
 /*Conteúdo do fieldset*/
-.input-wrapper, 
+.input-wrapper label, 
 .checkbox-wrapper,
 .col-2, select {
   color: #4E4958;
@@ -122,6 +122,12 @@ form {
 
 .col-3 > div:nth-child(1) {
   width: 50%;
+}
+
+.input-wrapper span {
+  color: #C1BCCC;
+  font-size: 12px;
+  line-height: 20px; 
 }
 
  
