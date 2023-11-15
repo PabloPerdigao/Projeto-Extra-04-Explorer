@@ -164,12 +164,39 @@ form {
 }
 
 .input-wrapper-feedback label {
+  display: flex;
+  
   margin-top: 32px;
 }
 
 /*Margem superior do checkbox*/
 .checkbox-wrapper label {
 margin-top: 8px;
+display: flex;
+}
+.checkbox-wrapper input {
+  opacity: 0;
 }
 
+.checkbox-wrapper input {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  gap: 8px;
 
+}
+
+.checkbox-wrapper label::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: block;
+  border-radius: 8px;
+  border:  1px solid #E6E6F0;
+  
+  
+}
+
+.checkbox-wrapper input:focus + label::before {
+  outline: 2px solid black;
+}
