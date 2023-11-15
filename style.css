@@ -109,9 +109,14 @@ form {
 
 /*Configurando conteúdo do fieldset*/
 .input-wrapper label,
+.input-wrapper-email label,
 .input-wrapper-feedback label, 
 .checkbox-wrapper,
-.col-2, select {
+.col-2, select,
+.input-wrapper-1 label,
+.input-wrapper-2 label,
+.input-wrapper-3 label,
+.input-wrapper-feedback textarea {
   color: #4E4958;
   font-size: 14px;
   display: flex;
@@ -124,28 +129,63 @@ form {
  display: flex;
  gap: 22px;
  margin-bottom: 8px;
+ 
 }
 
 .col-2 > div:nth-child(1) {
   width: 100%;
 }
 
-.input-wrapper input,
-.input-wrapper-feedback input,
-.input-wrapper select{
+.input-wrapper input{
+  border-radius: 8px;
+ border: 1px solid #E6E6F0;
+ background: #FAFAFC;
+ width: 300px;
+ height: 55px;
+ margin-bottom: 16px;
+}
+
+.input-wrapper-email input {
+ width: 622px;
+ border-radius: 8px;
+ border: 1px solid #E6E6F0;
+ background: #FAFAFC;
+ height: 55px;
+ margin-bottom: 16px;
+}
+
+.input-wrapper select,
+.input-wrapper-1 input,
+.input-wrapper-2 input,
+.input-wrapper-3 input,
+.input-wrapper-feedback textarea {
  border-radius: 8px;
  border: 1px solid #E6E6F0;
  background: #FAFAFC;
  width: 300px;
  height: 55px;
+ margin-bottom: 16px;
 }
 
-.input-wrapper span {
+.input-wrapper-email span {
   color: #C1BCCC;
   font-size: 12px;
   line-height: 20px;
 }
 
+.input-wrapper label span:hover {
+  color: #87858c;
+}
+
+.input-wrapper-feedback textarea {
+  
+
+  
+  font-size: 16px;
+  line-height: 26px; 
+
+  color: #727272;
+}
 
 /* fieldset 2*/
 .fieldset-wrapper legend{
@@ -168,9 +208,20 @@ form {
   
   margin-top: 32px;
 }
-.input-wrapper-feedback input {
+
+
+.input-wrapper-feedback textarea {
   margin-bottom: 32px;
+  
+  width: 608px;
+  height: 166.586px;
+
+  border-radius: 8px;
+  border: 1px solid #E6E6F0;
+  background: #FAFAFC; 
 }
+
+
 
 /*Configuração do checkbox*/
 .checkbox-wrapper label {
@@ -208,3 +259,22 @@ form {
 .checkbox-wrapper input:focus + label::before {
   outline: 2px solid black;
 }
+
+
+/*Configurando o fieldset datetime*/
+.col-3 {
+  display: flex;
+  
+}
+ 
+.input-wrapper-1 input{
+  width: 300px;
+  gap: 32px;
+  height: 56px;
+}
+.input-wrapper-2 input,
+.input-wrapper-3 input {
+  width: 140px;
+  height: 56px;
+}
+ 
