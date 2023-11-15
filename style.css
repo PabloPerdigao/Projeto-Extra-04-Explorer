@@ -216,11 +216,14 @@ form {
 /*Configuração do checkbox*/
 .checkbox-wrapper label {
   display: flex;
+  gap: 8px;
+  align-items: center;
 }
 
 .checkbox-wrapper input {
   opacity: 0 ;
 }
+
 
 .checkbox-wrapper input {
   position: absolute;
