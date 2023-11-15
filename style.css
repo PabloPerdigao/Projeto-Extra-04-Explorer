@@ -168,21 +168,24 @@ form {
   
   margin-top: 32px;
 }
-
-/*Margem superior do checkbox*/
-.checkbox-wrapper label {
-margin-top: 8px;
-display: flex;
+.input-wrapper-feedback input {
+  margin-bottom: 32px;
 }
+
+/*Configuração do checkbox*/
+.checkbox-wrapper label {
+  display: flex;
+}
+
 .checkbox-wrapper input {
-  opacity: 0;
+  opacity: 0 ;
 }
 
 .checkbox-wrapper input {
   position: absolute;
   width: 24px;
   height: 24px;
-  gap: 8px;
+  
 
 }
 
@@ -190,18 +193,18 @@ display: flex;
   content: '';
   width: 24px;
   height: 24px;
-  display: block;
+  display: flex;
   border-radius: 8px;
   border:  1px solid #E6E6F0;
   
-  
 }
 
-/*dica de acessibilidade para o checkbox*/
+/*Configurando checked*/
 .checkbox-wrapper input:checked + label::before {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cg clip-path='url(%23clip0_2602_23)'%3E%3Cpath d='M9 16.17L4.83 12L3.41 13.41L9 19L21 7L19.59 5.59L9 16.17Z' fill='%2342D3FF'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_2602_23'%3E%3Crect width='24' height='24' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cg clip-path='url(%23clip0_2704_23)'%3E%3Cpath d='M9 16.17L4.83 12L3.41 13.41L9 19L21 7L19.59 5.59L9 16.17Z' fill='%23F67669'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_2704_23'%3E%3Crect width='24' height='24' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
 }  
 
+/*dica de acessibilidade para o checkbox*/
 .checkbox-wrapper input:focus + label::before {
   outline: 2px solid black;
 }
