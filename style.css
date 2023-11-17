@@ -13,7 +13,7 @@ body, input, select,textarea, span {
 }
 
 /*definindo as fontes*/
-.fieldset-wrapper legend, .fieldset-wrapper-title, button, h1 {
+.fieldset-wrapper legend, .fieldset-wrapper-title, footer .submit, h1 {
   font-family: 'Staatliches', sans-serif;
   font-weight: 400;
 }
@@ -272,7 +272,7 @@ form {
   border-radius: 8px;
   border: 1px solid #E6E6F0;
   background: #FAFAFC;
-  margin-bottom: 16px;
+  margin-bottom: 64px;
 }
 
 .input-wrapper-1 input {
@@ -286,4 +286,34 @@ form {
   width: 140px;
   height: 56px;
 }
+
+/*Configurando o footer*/
+footer .submit {
+  background: #F67669;
+  
+
+  border-radius: 8px;
+  
+  display: flex;
+  width: 622px;
+  height: 51px;
+  padding: 15px 40px;
+  
+  justify-content: center;
+  align-items: center;
+
+  font-size: 20px;
+  line-height: 26px;
+  
+  color: #FFF;
+ 
+  border: none;
+}
+
+
+
+footer .submit:hover {
+  background: #f45e4d;
+ }
+
  
