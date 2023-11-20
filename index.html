@@ -37,12 +37,12 @@
     
             <div class="input-wrapper">
               <label for="event-name">Nome</label>
-              <input type="event-text" id="text"/>
+              <input type="event-text" id="text" required />
             </div>
             
             <div class="input-wrapper">
               <label for="event-surname">Sobrenome</label>
-              <input type="event-surname" id="surname"/>
+              <input type="event-surname" id="surname" required />
             </div>
           
           </div>
@@ -50,7 +50,7 @@
           
           <div class="input-wrapper-email">
             <label for="event-email">E-mail <span>(digite um email válido)</span></label>
-            <input type="event-email" id="email">
+            <input type="event-email" id="email" required />
           </div>
   
         </fieldset>
@@ -61,7 +61,7 @@
             
             <div class="input-wrapper">
               <label for="event-select">Selecione quem foi o seu mentor ?</label>
-              <select id="event-select">
+              <select id="event-select" required >
                 <option value="Mentorship 1">Padre Whashintton</option>
                 <option value="Mentorship 2">Izaquías</option>
                 <option value="Mentorship 3">Seu Germaro</option>
@@ -70,7 +70,7 @@
     
             <div class="input-wrapper-feedback">
               <label for="event-feedback">Feedback sobre o mentor</label>
-              <textarea id="event-feedback"></textarea> 
+              <textarea id="event-feedback" maxlength="320"></textarea> 
             </div>
     
             <div class="checkbox-wrapper">
@@ -90,17 +90,17 @@
   
               <div class="input-wrapper-1">
                 <label for="event-date">Data <span>(DD/MM/AAAA)</span></label>
-                <input type="date" id="event-date">
+                <input type="date" id="event-date" required />
               </div>
 
               <div class="input-wrapper-2">
                 <label for="event-init">Das  </label>
-                <input type="time" id="event-init">
+                <input type="time" id="event-init" required />
               </div>
   
               <div class="input-wrapper-3">
                 <label for="event-end">Até</label>
-                <input type="time" id="event-end">
+                <input type="time" id="event-end" required />
               </div>
 
             </div>
