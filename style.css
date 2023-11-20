@@ -96,8 +96,6 @@ border: none;
 
 /* Configurações do Form */
 form {
-  
-  height: 1075px;
 
   border-radius: 0px 0px 20px 20px;
   background: #FFF;
@@ -143,7 +141,11 @@ form {
   background: #FAFAFC;
   width: 300px;
   height: 55px;
-  margin-bottom: 16px;
+ 
+}
+
+.input-wrapper-email label{
+  margin-top: 16px;
 }
 
 .input-wrapper-email input {
@@ -173,9 +175,12 @@ form {
 
   border-bottom: 1px solid #E6E6F0;
   width: 622px;
+  
   padding-bottom: 8px;
   margin-bottom: 32px;
 }
+
+
 
 .input-wrapper textarea{
   gap: 8px;
@@ -189,7 +194,6 @@ form {
 
 
 .input-wrapper-feedback textarea {
-  margin-bottom: 32px;
   
   width: 608px;
   height: 166.586px;
@@ -278,7 +282,7 @@ form {
 .input-wrapper-1 input {
   width: 300px;
   height: 56px;
-  margin-bottom: 64px;
+ 
 }
 
 
@@ -309,6 +313,8 @@ footer .submit {
   color: #FFF;
  
   border: none;
+
+  margin-top: 64px;
 
 }
 
