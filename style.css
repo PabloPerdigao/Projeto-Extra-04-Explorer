@@ -103,7 +103,7 @@ form {
   background: #FFF;
 
 
-  padding: 64px;
+  padding: 30px 64px 64px;
   
   display: flex;
   flex-direction: column;
