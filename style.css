@@ -122,7 +122,7 @@ form {
   display: flex;
   gap: 22px;
   margin-bottom: 8px;
-
+  
 }
 
 
@@ -130,7 +130,7 @@ form {
 .input-wrapper-email input,
 .input-wrapper select,
 .input-wrapper-feedback textarea
- {
+{
   font-size: 16px;
   line-height: 26px;
   align-items: center;
@@ -141,7 +141,7 @@ form {
   background: #FAFAFC;
   width: 300px;
   height: 55px;
- 
+  
 }
 
 .input-wrapper-email label{
@@ -160,6 +160,11 @@ form {
 
 .input-wrapper-email label span:hover {
   color: #87858c;
+}
+
+/*Configuração do input invalid*/
+ input:invalid {
+  border: 1px solid #f72c16
 }
 
 
@@ -324,4 +329,3 @@ footer .submit:hover {
   background: #f45e4d;
  }
 
- 
