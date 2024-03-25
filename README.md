@@ -27,9 +27,12 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias & ferramentsa:
 
-- HTML e CSS
-- Git e Github
-- Figma
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Git](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+
 
 ## 💻 Projeto
 
@@ -51,6 +54,8 @@ Este projeto é dividido em 3 etapas de preenchimento:
   Contém 3 campos de preenchimento. </br>
   ( Sendo 1 de tipo date & 2 do tipo time...begin/end )
 
+
+[➡️😉Acesse o projeto finalizado online](https://pabloperdigao.github.io/Projeto-Extra-04-Explorer/)
 
 ## 🔖 Layout
 
